@@ -1,0 +1,2 @@
+Adapter Name: NVIDIA GeForce RTX 3070
+Memory Size: 8043

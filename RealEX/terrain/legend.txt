@@ -1,0 +1,20 @@
+Texture Count: 7
+
+0: ../RealEX/terrain/texture01.tga
+1: ../RealEX/terrain/texture02.tga
+2: ../RealEX/terrain/texture03.tga
+3: ../RealEX/terrain/alpha01.tga
+4: ../RealEX/terrain/alpha02.tga
+5: ../RealEX/terrain/alpha03.tga
+6: ../RealEX/terrain/alpha04.tga
+
+Material Count: 8
+
+0: 0 -1 -1   0 255   0
+1: 1 -1 -1 255   0   0
+2: 1  0  4   0   0 255
+3: 1  0  3   0 255 255
+4: 2 -1 -1 255 255 255
+5: 0  2  3 128 128 128
+6: 0  2  5 128   0   0
+7: 0  2  6   0   0 128

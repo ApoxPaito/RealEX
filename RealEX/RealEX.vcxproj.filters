@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3DClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelListClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultitextureShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureArrayClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMapShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaMapShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BumpMapShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Specmap.vs">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecMapShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTextureClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugWindowClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FogShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipPlaneShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslateShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RefractionShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FireShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlurShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrthoWindowClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystemClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftShadowShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectionShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPointClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManagerClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureInstanced.vs">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowMapShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentDepthShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredBuffersClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShadowShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTreeClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMapClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDomeClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDomeShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyPlaneClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyPlaneShaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GraphicsClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelListClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTextureShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureArrayClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMapShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaMapShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BumpMapShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecMapShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTextureClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugWindowClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FogShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipPlaneShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TranslateShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RefractionShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FireShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OrthoWindowClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystemClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftShadowShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectionShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPointClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManagerClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlowMapShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlowShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentDepthShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredBuffersClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShadowShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTreeClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMapClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyDomeClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyDomeShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyPlaneClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyPlaneShaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Color.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Color.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Texture.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Texture.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Font.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Font.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LightSpecular.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LightSpecular.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LightDiffuse.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LightDiffuse.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Multitexture.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Multitexture.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Lightmap.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Lightmap.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alphamap.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alphamap.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Bumpmap.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Bumpmap.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Specmap.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Fog.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Fog.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClipPlane.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClipPlane.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Translate.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Translate.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Transparent.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Transparent.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Reflection.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Reflection.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Fade.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Fade.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Water.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Water.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Refraction.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Refraction.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LightAmbient.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LightAmbient.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LightMultiple.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LightMultiple.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Glass.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Glass.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Fire.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Fire.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Horizontalblur.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Horizontalblur.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Verticalblur.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Verticalblur.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Color.hs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Color.ds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Particle.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Particle.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Depth.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Depth.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shadow.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shadow.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Softshadow.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Softshadow.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Projection.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Projection.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Glowmap.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Glowmap.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Glow.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Glow.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Transparentdepth.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Transparentdepth.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Deferred.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Deferred.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="DeferredLight.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="DeferredLight.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="DeferredShadow.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="DeferredShadow.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Terrain.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Terrain.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Skydome.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Skydome.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Skyplane.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Skyplane.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
