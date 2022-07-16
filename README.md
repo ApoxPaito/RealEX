@@ -11,4 +11,4 @@ The layout of the engine is pretty much one-to-one with Raster's code, save for 
 I do not own the resources used for 3D models, textures and sounds in this project, given that I have *borrowed* them from Raster's website and Mount&Blade: Warband which belongs to Taleworlds Entertainment.
 Especially I do not own FMOD API, FMOD API is owned Firelight Technologies Pty Ltd.
 
-The one thing I can say I certainly own is the music playing in the background though. ~~It is an as-original-it-gets composition of mine, refer to Video ID KOgP1wivcko on YouTube for more info I guess, I don't care if you use it somewhere else, even with commercial intents, but do credit me if you do~~
+The one thing I can say I certainly own is the music playing in the background though. ~~It is an as-original-it-gets composition of mine~~
